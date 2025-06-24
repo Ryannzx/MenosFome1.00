@@ -1,12 +1,12 @@
 const Header = () => {
     return (
         <header style={{
-        background: '#f5f5f5',
+        background: '#007bff',
         padding: '1rem',
         display: 'flex',
         alignItems: 'center'
         }}>
-        <h1 style={{ margin: 0, color: '#333' }}>📦 Menos Fome Brasil</h1>
+        <h1 style={{ margin: 0, color: '#f5f5f5' }}>📦 Menos Fome Brasil</h1>
         </header>
     )
 }

@@ -19,7 +19,9 @@ const CampanhaList = () => {
     }, [])
     return (
     <div>
-        <h2>Campanhas ativas</h2>
+        <h3>Ajude o Próximo e faça uma doação</h3>
+        <h2>Campanhas ativas:</h2>
+        
         {campanhas.length === 0 ? (
         <p>Nenhuma campanha encontrada.</p>
         ) : (

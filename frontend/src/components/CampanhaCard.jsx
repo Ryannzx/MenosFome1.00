@@ -20,7 +20,7 @@ const CampanhaCard = ({ id, titulo, descricao, chavePix,  }) => {
         }}>
             <h3 style={{ margin: '0 0 0.5rem 0' }}>{titulo}</h3>
             <p style={{ marginBottom: '0.5rem' }}>{descricao}</p>
-            <p style={{ marginBottom: '0.5rem' }}><strong>Pix:</strong> {chavePix}</p>
+            <p style={{ marginBottom: '0.5rem' }}><strong> Chave Pix:</strong> {chavePix}</p>
             <button
                 onClick={copiarChavePix}
                 style={{

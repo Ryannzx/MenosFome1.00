@@ -17,7 +17,7 @@ const CampanhaForm = ({ aoCriar }) => {
 
         try {
             const res = await api.post('/campanhas', formData)
-            if (aoCriar) aoCriar(res.data) // opcional, para atualizar lista no App
+            if (aoCriar) aoCriar(res.data) // para atualizar lista no App
             setFormData({ titulo: '', descricao: '', chavePix: '' })
         } catch (error) {
             console.error('Erro ao criar campanha:', error)
@@ -26,10 +26,10 @@ const CampanhaForm = ({ aoCriar }) => {
 
     return (
         <form onSubmit={handleSubmit} style={{ marginBottom: '2rem' }}>
-            <h2>Criar nova campanha</h2>
+            <h2>Criar nova campanha de doação</h2>
             <input
                 name="titulo"
-                placeholder="Título"
+                placeholder="Adicione o Título da sua campanha"
                 value={formData.titulo}
                 onChange={handleChange}
                 required
@@ -37,7 +37,7 @@ const CampanhaForm = ({ aoCriar }) => {
             />
             <textarea
                 name="descricao"
-                placeholder="Descrição"
+                placeholder="Faça uma breve descrição da sua campanha, falando sobre sua história"
                 value={formData.descricao}
                 onChange={handleChange}
                 required
