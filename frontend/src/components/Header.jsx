@@ -6,7 +6,7 @@ const Header = () => {
         display: 'flex',
         alignItems: 'center'
         }}>
-        <h1 style={{ margin: 0, color: '#f5f5f5' }}>📦 Menos Fome Brasil</h1>
+        <h1 style={{ margin: 0, color: '#f5f5f5' }}>🍽️ Menos Fome Brasil</h1>
         </header>
     )
 }
