@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Header from './components/Header'
-import CampanhaForm from './components/CAmpanhaForm' //campanha com A minusculo dá erro
+import CampanhaForm from './components/CampanhaForm' //campanha com A minusculo dá erro
 import CampanhaList from './components/CampanhaList'
 import api from './services/api'
 
