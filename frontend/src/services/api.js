@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000' //'http://localhost:5000/campanhas'
+    baseURL: 'https://menosfome1-00.onrender.com'
 })
 
 export default api
