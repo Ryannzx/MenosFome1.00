@@ -1,4 +1,4 @@
-# 🥖 Menos Fome Brasil
+# 🍽️ Menos Fome Brasil
 
 **Menos Fome Brasil** é uma aplicação que busca **sanar as dores de pessoas em situação de necessidade**, facilitando **doações diretas** a pessoas carentes por meio de campanhas públicas com chave Pix.
 
